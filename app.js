@@ -11,7 +11,7 @@ const jwt = require("jsonwebtoken");
 
 const path = require("path");
 
-dbPath = path.join(__dirname, "twitterClone.db");
+const dbPath = path.join(__dirname, "twitterClone.db");
 
 let db = null;
 
